@@ -5,14 +5,22 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export"
+    "export": "next export",
+    "slicemachine": "start-slicemachine"
   },
   "dependencies": {
+    "@prismicio/client": "^6.4.3",
+    "@prismicio/helpers": "^2.3.0",
+    "@prismicio/next": "^0.1.2",
+    "@prismicio/react": "^2.3.0",
+    "@prismicio/slice-simulator-react": "^0.2.2",
     "next": "^12.1.5",
+    "prismic-javascript": "^3.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^4.4.4"
+    "@netlify/plugin-nextjs": "^4.4.4",
+    "slice-machine-ui": "^0.3.7"
   }
 }
